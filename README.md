@@ -1,7 +1,7 @@
 # IoT Hardware Automation Assignment
 
 This project simulates a small IoT system with three Nodes and three Endpoints.  
-It includes a fake API (`AuguryAPI`) and unit tests that verify OTA and DFU logic.
+It includes a fake API (`IoTAPI`) and unit tests that verify OTA and DFU logic.
 
 ---
 
@@ -56,6 +56,6 @@ pytest
 
 ## 💡 Notes
 - No real hardware or cloud components are used — everything runs locally.
-- `iot.py` contains the fake API and the data model for Nodes and Endpoints.
+- `iot.py` contains the fake API (`IoTAPI`) and the data model for Nodes and Endpoints.
 - `tests.py` includes unit tests that validate version updates, battery checks, and OTA behavior.
 - This project was submitted as part of a **Hardware Automation Student** assignment.

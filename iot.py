@@ -50,7 +50,7 @@ class Endpoint:
         return True
 
 
-class AuguryAPI:
+class IoTAPI:
     def __init__(self):
         self.nodes = {}
         self.endpoints = {}
@@ -143,4 +143,4 @@ class AuguryAPI:
 
  
  
-api = AuguryAPI()
+api = IoTAPI()
